@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+*{
+    
+    box-sizing: border-box;
+    margin:10px; 
+    padding: 5px;
+    font-size:30px; 
+    text-align: center;
+    
+}
+ 
+body {
+    background-color: #BB999C;
+    overflow-x: hidden;
+}
+.convertion-block {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    flex-wrap: nowrap;
+    margin: 160px;
+    
+     
+  
+}
+
+.bt1{
+     border: none; 
+     border-radius: 9px;
+     cursor: pointer; 
+     padding: 10px;
+     transition: 0.4s ease;
+     width:140px;
+     overflow-x: hidden;
+
+}
+.bt1:hover {
+    background-color: black; 
+    color:white; 
+    transform: scale(1.1);
+}
+
+#title {
+    font-size :30px; 
+    font-weight: 500; 
+    font-weight: 300;
+     
+
+}
+#text {
+    width:390px;
+}
+
+
+@media (max-width:800px){
+    #title {
+        font-size: 18px;
+    }
+    #text{
+        font-size: 20px;
+        width:250px;
+        
+    }
+    .bt1{
+        border: none; 
+        font-size: 20px;
+        border-radius: 9px;
+        cursor: pointer; 
+        padding: 6px;
+        transition: 0.4s ease;
+   
+   }
+   #show {
+    font-size:15px;
+
+   }
+
+}
